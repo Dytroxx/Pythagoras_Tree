@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>PythagorasTree</class>
+ <widget class="QWidget" name="PythagorasTree">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>822</width>
+    <height>620</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>PythagorasTree</string>
+  </property>
+  <widget class="QWidget" name="formLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>160</width>
+     <height>112</height>
+    </rect>
+   </property>
+   <layout class="QFormLayout" name="formLayout">
+    <item row="0" column="0">
+     <widget class="QLabel" name="angle">
+      <property name="text">
+       <string>Winkel: </string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="size_a">
+      <property name="text">
+       <string>Size of A:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="size_b">
+      <property name="text">
+       <string>Size of B:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QSpinBox" name="inputAngle">
+      <property name="maximum">
+       <number>360</number>
+      </property>
+      <property name="value">
+       <number>45</number>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QDoubleSpinBox" name="inputSize_a">
+      <property name="maximum">
+       <double>1.000000000000000</double>
+      </property>
+      <property name="stepType">
+       <enum>QAbstractSpinBox::AdaptiveDecimalStepType</enum>
+      </property>
+      <property name="value">
+       <double>0.700000000000000</double>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QDoubleSpinBox" name="inputSize_b">
+      <property name="maximum">
+       <double>1.000000000000000</double>
+      </property>
+      <property name="stepType">
+       <enum>QAbstractSpinBox::AdaptiveDecimalStepType</enum>
+      </property>
+      <property name="value">
+       <double>0.700000000000000</double>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="Levels">
+      <property name="text">
+       <string>Iterations</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QSpinBox" name="inputLevel">
+      <property name="value">
+       <number>40</number>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="Draw">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>140</y>
+     <width>161</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Draw Tree</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>20</y>
+     <width>161</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QPushButton" name="colorPickerButton">
+      <property name="text">
+       <string>Color Stem</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="colorPickerButton_2">
+      <property name="text">
+       <string>Color Branches</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="colorPickerButton_3">
+      <property name="text">
+       <string>Color Leaves</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
