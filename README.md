@@ -7,7 +7,7 @@ The following code is a recursive approach to draw the Pythagorean tree.
 
 <img src="https://github.com/Dytroxx/Pythagoras_Tree/blob/master/PyTreeGui.PNG" width=640>
 
-The Interface also reacts realtime to changes been made to angle, child size, color changes etc. as everytime a update() is called.
+The interface was designed to dynamically adapt to any changes. So with every action the change of the tree is shown directly, because with every setting the update() is called.
 ![](https://media.giphy.com/media/9GsqPKUvQnpNQS7k6E/giphy.gif)
 
 ## Contributing
