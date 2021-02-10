@@ -3,7 +3,7 @@ I had the task to draw an interactive Pythagoras tree, which could be changed vi
 The following code is the result of this project. 
 The following code is a recursive approach to draw the Pythagorean tree. 
 
-##Qt Gui##
+##Qt Gui
 
 <img src="https://github.com/Dytroxx/Pythagoras_Tree/blob/master/PyTreeGui.PNG" width=640>
 
